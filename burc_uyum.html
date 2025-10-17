@@ -1,0 +1,109 @@
+<html>
+  <head>
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="" />
+    <link
+      rel="stylesheet"
+      as="style"
+      onload="this.rel='stylesheet'"
+      href="https://fonts.googleapis.com/css2?display=swap&amp;family=Noto+Sans%3Awght%40400%3B500%3B700%3B900&amp;family=Space+Grotesk%3Awght%40400%3B500%3B700"
+    />
+
+    <title>Stitch Design</title>
+    <link rel="icon" type="image/x-icon" href="data:image/x-icon;base64," />
+
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+  </head>
+  <body>
+    <div
+      class="relative flex h-auto min-h-screen w-full flex-col bg-[#141118] dark group/design-root overflow-x-hidden"
+      style='--select-button-svg: url(&apos;data:image/svg+xml,%3csvg xmlns=%27http://www.w3.org/2000/svg%27 width=%2724px%27 height=%2724px%27 fill=%27rgb(171,157,185)%27 viewBox=%270 0 256 256%27%3e%3cpath d=%27M181.66,170.34a8,8,0,0,1,0,11.32l-48,48a8,8,0,0,1-11.32,0l-48-48a8,8,0,0,1,11.32-11.32L128,212.69l42.34-42.35A8,8,0,0,1,181.66,170.34Zm-96-84.68L128,43.31l42.34,42.35a8,8,0,0,0,11.32-11.32l-48-48a8,8,0,0,0-11.32,0l-48,48A8,8,0,0,0,85.66,85.66Z%27%3e%3c/path%3e%3c/svg%3e&apos;); font-family: "Space Grotesk", "Noto Sans", sans-serif;'
+    >
+      <div class="layout-container flex h-full grow flex-col">
+        <header class="flex items-center justify-between whitespace-nowrap border-b border-solid border-b-[#302839] px-10 py-3">
+          <div class="flex items-center gap-4 text-white">
+            <div class="size-4">
+              <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M24 4C25.7818 14.2173 33.7827 22.2182 44 24C33.7827 25.7818 25.7818 33.7827 24 44C22.2182 33.7827 14.2173 25.7818 4 24C14.2173 22.2182 22.2182 14.2173 24 4Z"
+                  fill="currentColor"
+                ></path>
+              </svg>
+            </div>
+            <h2 class="text-white text-lg font-bold leading-tight tracking-[-0.015em]">Mystic Readings</h2>
+          </div>
+          <div class="flex flex-1 justify-end gap-8">
+            <div class="flex items-center gap-9">
+              <a class="text-white text-sm font-medium leading-normal" href="#">Home</a>
+              <a class="text-white text-sm font-medium leading-normal" href="#">Readings</a>
+              <a class="text-white text-sm font-medium leading-normal" href="#">Community</a>
+              <a class="text-white text-sm font-medium leading-normal" href="#">About</a>
+            </div>
+            <button
+              class="flex max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-10 bg-[#302839] text-white gap-2 text-sm font-bold leading-normal tracking-[0.015em] min-w-0 px-2.5"
+            >
+              <div class="text-white" data-icon="Bell" data-size="20px" data-weight="regular">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" fill="currentColor" viewBox="0 0 256 256">
+                  <path
+                    d="M221.8,175.94C216.25,166.38,208,139.33,208,104a80,80,0,1,0-160,0c0,35.34-8.26,62.38-13.81,71.94A16,16,0,0,0,48,200H88.81a40,40,0,0,0,78.38,0H208a16,16,0,0,0,13.8-24.06ZM128,216a24,24,0,0,1-22.62-16h45.24A24,24,0,0,1,128,216ZM48,184c7.7-13.24,16-43.92,16-80a64,64,0,1,1,128,0c0,36.05,8.28,66.73,16,80Z"
+                  ></path>
+                </svg>
+              </div>
+            </button>
+            <div
+              class="bg-center bg-no-repeat aspect-square bg-cover rounded-full size-10"
+              style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuCfdGjBQsDmS9iCtnb8_lKyuPHEhU5V02wNt6OiEr8lZL8M2e0dfX8Na1YqyRfl5aoPkLRJpOUk-hGgbQwbNU560ce5_9jdQtcp0WbOyCPJQ0BJ22cxVolk3AP8DLAN51uovFLhiBD9526Sp5qS3sAhN7mjVrgzrbxmnCCZMHgMLrhEIyBRVOKhP_EpCB8NXbN0nx7ouCSRNqk4pF1Ey9TtdJ5Wsl8Bt4G-C2Gsz7L61Rx_nPmwhdM1QDJCWPyO9tsUOj3FNvsp-KpY");'
+            ></div>
+          </div>
+        </header>
+        <div class="px-40 flex flex-1 justify-center py-5">
+          <div class="layout-content-container flex flex-col w-[512px] max-w-[512px] py-5 max-w-[960px] flex-1">
+            <div class="flex flex-wrap justify-between gap-3 p-4"><p class="text-white tracking-light text-[32px] font-bold leading-tight min-w-72">Love Compatibility</p></div>
+            <div class="flex max-w-[480px] flex-wrap items-end gap-4 px-4 py-3">
+              <label class="flex flex-col min-w-40 flex-1">
+                <p class="text-white text-base font-medium leading-normal pb-2">Your Zodiac Sign</p>
+                <select
+                  class="form-input flex w-full min-w-0 flex-1 resize-none overflow-hidden rounded-lg text-white focus:outline-0 focus:ring-0 border border-[#473b54] bg-[#211c27] focus:border-[#473b54] h-14 bg-[image:--select-button-svg] placeholder:text-[#ab9db9] p-[15px] text-base font-normal leading-normal"
+                >
+                  <option value="one">Select your sign</option>
+                  <option value="two">two</option>
+                  <option value="three">three</option>
+                </select>
+              </label>
+            </div>
+            <div class="flex max-w-[480px] flex-wrap items-end gap-4 px-4 py-3">
+              <label class="flex flex-col min-w-40 flex-1">
+                <p class="text-white text-base font-medium leading-normal pb-2">Partner's Zodiac Sign</p>
+                <select
+                  class="form-input flex w-full min-w-0 flex-1 resize-none overflow-hidden rounded-lg text-white focus:outline-0 focus:ring-0 border border-[#473b54] bg-[#211c27] focus:border-[#473b54] h-14 bg-[image:--select-button-svg] placeholder:text-[#ab9db9] p-[15px] text-base font-normal leading-normal"
+                >
+                  <option value="one">Select partner's sign</option>
+                  <option value="two">two</option>
+                  <option value="three">three</option>
+                </select>
+              </label>
+            </div>
+            <div class="flex px-4 py-3 justify-end">
+              <button
+                class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-10 px-4 bg-[#660fbd] text-white text-sm font-bold leading-normal tracking-[0.015em]"
+              >
+                <span class="truncate">Calculate Compatibility</span>
+              </button>
+            </div>
+            <h2 class="text-white text-[22px] font-bold leading-tight tracking-[-0.015em] px-4 pb-3 pt-5">Compatibility Result</h2>
+            <div class="flex flex-col gap-3 p-4">
+              <div class="flex gap-6 justify-between">
+                <p class="text-white text-base font-medium leading-normal">Compatibility Score</p>
+                <p class="text-white text-sm font-normal leading-normal">75%</p>
+              </div>
+              <div class="rounded bg-[#473b54]"><div class="h-2 rounded bg-white" style="width: 75%;"></div></div>
+            </div>
+            <p class="text-white text-base font-normal leading-normal pb-3 pt-1 px-4">
+              Your zodiac signs show a strong potential for a harmonious relationship. You share many common values and approaches to life, which can lead to a deep and fulfilling
+              connection. However, remember that compatibility is just one aspect of a relationship, and effort from both sides is essential for long-term success.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

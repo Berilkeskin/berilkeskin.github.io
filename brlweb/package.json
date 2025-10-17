@@ -1,0 +1,22 @@
+{
+  "name": "brlweb",
+  "version": "1.0.0",
+  "description": "A web application for tarot readings and horoscope predictions.",
+  "main": "index.html",
+  "scripts": {
+    "start": "live-server .",
+    "build": "echo 'Build step can be added here.'"
+  },
+  "dependencies": {
+    "tailwindcss": "^2.2.19"
+  },
+  "devDependencies": {},
+  "keywords": [
+    "tarot",
+    "horoscope",
+    "web",
+    "application"
+  ],
+  "author": "Your Name",
+  "license": "MIT"
+}

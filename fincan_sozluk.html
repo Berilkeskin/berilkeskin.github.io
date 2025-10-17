@@ -1,0 +1,670 @@
+<html>
+  <head>
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="" />
+    <link
+      rel="stylesheet"
+      as="style"
+      onload="this.rel='stylesheet'"
+      href="https://fonts.googleapis.com/css2?display=swap&amp;family=Noto+Sans%3Awght%40400%3B500%3B700%3B900&amp;family=Space+Grotesk%3Awght%40400%3B500%3B700"
+    />
+
+    <title>Stitch Design</title>
+    <link rel="icon" type="image/x-icon" href="data:image/x-icon;base64," />
+
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+  </head>
+  <body>
+    <div
+      class="relative flex h-auto min-h-screen w-full flex-col bg-[#141118] dark group/design-root overflow-x-hidden"
+      style='font-family: "Space Grotesk", "Noto Sans", sans-serif;'
+    >
+      <div class="layout-container flex h-full grow flex-col">
+        <header class="flex items-center justify-between whitespace-nowrap border-b border-solid border-b-[#302839] px-10 py-3">
+          <div class="flex items-center gap-4 text-white">
+            <div class="size-4">
+              <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M24 4C25.7818 14.2173 33.7827 22.2182 44 24C33.7827 25.7818 25.7818 33.7827 24 44C22.2182 33.7827 14.2173 25.7818 4 24C14.2173 22.2182 22.2182 14.2173 24 4Z"
+                  fill="currentColor"
+                ></path>
+              </svg>
+            </div>
+            <h2 class="text-white text-lg font-bold leading-tight tracking-[-0.015em]">Mystic Readings</h2>
+          </div>
+          <div class="flex flex-1 justify-end gap-8">
+            <div class="flex items-center gap-9">
+              <a class="text-white text-sm font-medium leading-normal" href="#">Readings</a>
+              <a class="text-white text-sm font-medium leading-normal" href="#">Glossary</a>
+              <a class="text-white text-sm font-medium leading-normal" href="#">Community</a>
+              <a class="text-white text-sm font-medium leading-normal" href="#">About</a>
+            </div>
+            <div class="flex gap-2">
+              <button
+                class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-10 px-4 bg-[#660fbd] text-white text-sm font-bold leading-normal tracking-[0.015em]"
+              >
+                <span class="truncate">Sign up</span>
+              </button>
+              <button
+                class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-10 px-4 bg-[#302839] text-white text-sm font-bold leading-normal tracking-[0.015em]"
+              >
+                <span class="truncate">Log in</span>
+              </button>
+            </div>
+          </div>
+        </header>
+        <div class="px-40 flex flex-1 justify-center py-5">
+          <div class="layout-content-container flex flex-col max-w-[960px] flex-1">
+            <div class="flex flex-wrap justify-between gap-3 p-4">
+              <div class="flex min-w-72 flex-col gap-3">
+                <p class="text-white tracking-light text-[32px] font-bold leading-tight">Coffee Cup Symbol Glossary</p>
+                <p class="text-[#ab9db9] text-sm font-normal leading-normal">
+                  Explore the meanings behind the symbols found in coffee cup readings. Search by letter or icon to uncover insights into your future.
+                </p>
+              </div>
+            </div>
+            <div class="px-4 py-3">
+              <label class="flex flex-col min-w-40 h-12 w-full">
+                <div class="flex w-full flex-1 items-stretch rounded-lg h-full">
+                  <div
+                    class="text-[#ab9db9] flex border-none bg-[#302839] items-center justify-center pl-4 rounded-l-lg border-r-0"
+                    data-icon="MagnifyingGlass"
+                    data-size="24px"
+                    data-weight="regular"
+                  >
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+                      <path
+                        d="M229.66,218.34l-50.07-50.06a88.11,88.11,0,1,0-11.31,11.31l50.06,50.07a8,8,0,0,0,11.32-11.32ZM40,112a72,72,0,1,1,72,72A72.08,72.08,0,0,1,40,112Z"
+                      ></path>
+                    </svg>
+                  </div>
+                  <input
+                    placeholder="Search symbols..."
+                    class="form-input flex w-full min-w-0 flex-1 resize-none overflow-hidden rounded-lg text-white focus:outline-0 focus:ring-0 border-none bg-[#302839] focus:border-none h-full placeholder:text-[#ab9db9] px-4 rounded-l-none border-l-0 pl-2 text-base font-normal leading-normal"
+                    value=""
+                  />
+                </div>
+              </label>
+            </div>
+            <div class="pb-3">
+              <div class="flex border-b border-[#473b54] px-4 gap-8">
+                <a class="flex flex-col items-center justify-center border-b-[3px] border-b-white text-white pb-[13px] pt-4" href="#">
+                  <p class="text-white text-sm font-bold leading-normal tracking-[0.015em]">A</p>
+                </a>
+                <a class="flex flex-col items-center justify-center border-b-[3px] border-b-transparent text-[#ab9db9] pb-[13px] pt-4" href="#">
+                  <p class="text-[#ab9db9] text-sm font-bold leading-normal tracking-[0.015em]">B</p>
+                </a>
+                <a class="flex flex-col items-center justify-center border-b-[3px] border-b-transparent text-[#ab9db9] pb-[13px] pt-4" href="#">
+                  <p class="text-[#ab9db9] text-sm font-bold leading-normal tracking-[0.015em]">C</p>
+                </a>
+                <a class="flex flex-col items-center justify-center border-b-[3px] border-b-transparent text-[#ab9db9] pb-[13px] pt-4" href="#">
+                  <p class="text-[#ab9db9] text-sm font-bold leading-normal tracking-[0.015em]">D</p>
+                </a>
+                <a class="flex flex-col items-center justify-center border-b-[3px] border-b-transparent text-[#ab9db9] pb-[13px] pt-4" href="#">
+                  <p class="text-[#ab9db9] text-sm font-bold leading-normal tracking-[0.015em]">E</p>
+                </a>
+                <a class="flex flex-col items-center justify-center border-b-[3px] border-b-transparent text-[#ab9db9] pb-[13px] pt-4" href="#">
+                  <p class="text-[#ab9db9] text-sm font-bold leading-normal tracking-[0.015em]">F</p>
+                </a>
+                <a class="flex flex-col items-center justify-center border-b-[3px] border-b-transparent text-[#ab9db9] pb-[13px] pt-4" href="#">
+                  <p class="text-[#ab9db9] text-sm font-bold leading-normal tracking-[0.015em]">G</p>
+                </a>
+                <a class="flex flex-col items-center justify-center border-b-[3px] border-b-transparent text-[#ab9db9] pb-[13px] pt-4" href="#">
+                  <p class="text-[#ab9db9] text-sm font-bold leading-normal tracking-[0.015em]">H</p>
+                </a>
+                <a class="flex flex-col items-center justify-center border-b-[3px] border-b-transparent text-[#ab9db9] pb-[13px] pt-4" href="#">
+                  <p class="text-[#ab9db9] text-sm font-bold leading-normal tracking-[0.015em]">I</p>
+                </a>
+                <a class="flex flex-col items-center justify-center border-b-[3px] border-b-transparent text-[#ab9db9] pb-[13px] pt-4" href="#">
+                  <p class="text-[#ab9db9] text-sm font-bold leading-normal tracking-[0.015em]">J</p>
+                </a>
+                <a class="flex flex-col items-center justify-center border-b-[3px] border-b-transparent text-[#ab9db9] pb-[13px] pt-4" href="#">
+                  <p class="text-[#ab9db9] text-sm font-bold leading-normal tracking-[0.015em]">K</p>
+                </a>
+                <a class="flex flex-col items-center justify-center border-b-[3px] border-b-transparent text-[#ab9db9] pb-[13px] pt-4" href="#">
+                  <p class="text-[#ab9db9] text-sm font-bold leading-normal tracking-[0.015em]">L</p>
+                </a>
+                <a class="flex flex-col items-center justify-center border-b-[3px] border-b-transparent text-[#ab9db9] pb-[13px] pt-4" href="#">
+                  <p class="text-[#ab9db9] text-sm font-bold leading-normal tracking-[0.015em]">M</p>
+                </a>
+                <a class="flex flex-col items-center justify-center border-b-[3px] border-b-transparent text-[#ab9db9] pb-[13px] pt-4" href="#">
+                  <p class="text-[#ab9db9] text-sm font-bold leading-normal tracking-[0.015em]">N</p>
+                </a>
+                <a class="flex flex-col items-center justify-center border-b-[3px] border-b-transparent text-[#ab9db9] pb-[13px] pt-4" href="#">
+                  <p class="text-[#ab9db9] text-sm font-bold leading-normal tracking-[0.015em]">O</p>
+                </a>
+                <a class="flex flex-col items-center justify-center border-b-[3px] border-b-transparent text-[#ab9db9] pb-[13px] pt-4" href="#">
+                  <p class="text-[#ab9db9] text-sm font-bold leading-normal tracking-[0.015em]">P</p>
+                </a>
+                <a class="flex flex-col items-center justify-center border-b-[3px] border-b-transparent text-[#ab9db9] pb-[13px] pt-4" href="#">
+                  <p class="text-[#ab9db9] text-sm font-bold leading-normal tracking-[0.015em]">Q</p>
+                </a>
+                <a class="flex flex-col items-center justify-center border-b-[3px] border-b-transparent text-[#ab9db9] pb-[13px] pt-4" href="#">
+                  <p class="text-[#ab9db9] text-sm font-bold leading-normal tracking-[0.015em]">R</p>
+                </a>
+                <a class="flex flex-col items-center justify-center border-b-[3px] border-b-transparent text-[#ab9db9] pb-[13px] pt-4" href="#">
+                  <p class="text-[#ab9db9] text-sm font-bold leading-normal tracking-[0.015em]">S</p>
+                </a>
+                <a class="flex flex-col items-center justify-center border-b-[3px] border-b-transparent text-[#ab9db9] pb-[13px] pt-4" href="#">
+                  <p class="text-[#ab9db9] text-sm font-bold leading-normal tracking-[0.015em]">T</p>
+                </a>
+                <a class="flex flex-col items-center justify-center border-b-[3px] border-b-transparent text-[#ab9db9] pb-[13px] pt-4" href="#">
+                  <p class="text-[#ab9db9] text-sm font-bold leading-normal tracking-[0.015em]">U</p>
+                </a>
+                <a class="flex flex-col items-center justify-center border-b-[3px] border-b-transparent text-[#ab9db9] pb-[13px] pt-4" href="#">
+                  <p class="text-[#ab9db9] text-sm font-bold leading-normal tracking-[0.015em]">V</p>
+                </a>
+                <a class="flex flex-col items-center justify-center border-b-[3px] border-b-transparent text-[#ab9db9] pb-[13px] pt-4" href="#">
+                  <p class="text-[#ab9db9] text-sm font-bold leading-normal tracking-[0.015em]">W</p>
+                </a>
+                <a class="flex flex-col items-center justify-center border-b-[3px] border-b-transparent text-[#ab9db9] pb-[13px] pt-4" href="#">
+                  <p class="text-[#ab9db9] text-sm font-bold leading-normal tracking-[0.015em]">X</p>
+                </a>
+                <a class="flex flex-col items-center justify-center border-b-[3px] border-b-transparent text-[#ab9db9] pb-[13px] pt-4" href="#">
+                  <p class="text-[#ab9db9] text-sm font-bold leading-normal tracking-[0.015em]">Y</p>
+                </a>
+                <a class="flex flex-col items-center justify-center border-b-[3px] border-b-transparent text-[#ab9db9] pb-[13px] pt-4" href="#">
+                  <p class="text-[#ab9db9] text-sm font-bold leading-normal tracking-[0.015em]">Z</p>
+                </a>
+              </div>
+            </div>
+            <h3 class="text-white text-lg font-bold leading-tight tracking-[-0.015em] px-4 pb-2 pt-4">A</h3>
+            <div class="grid grid-cols-[repeat(auto-fit,minmax(158px,1fr))] gap-3 p-4">
+              <div class="flex flex-1 gap-3 rounded-lg border border-[#473b54] bg-[#211c27] p-4 flex-col">
+                <div class="text-white" data-icon="CircleNotch" data-size="24px" data-weight="regular">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+                    <path
+                      d="M232,128a104,104,0,0,1-208,0c0-41,23.81-78.36,60.66-95.27a8,8,0,0,1,6.68,14.54C60.15,61.59,40,93.27,40,128a88,88,0,0,0,176,0c0-34.73-20.15-66.41-51.34-80.73a8,8,0,0,1,6.68-14.54C208.19,49.64,232,87,232,128Z"
+                    ></path>
+                  </svg>
+                </div>
+                <div class="flex flex-col gap-1">
+                  <h2 class="text-white text-base font-bold leading-tight">Circle</h2>
+                  <p class="text-[#ab9db9] text-sm font-normal leading-normal">Represents cycles, completion, and wholeness.</p>
+                </div>
+              </div>
+              <div class="flex flex-1 gap-3 rounded-lg border border-[#473b54] bg-[#211c27] p-4 flex-col">
+                <div class="text-white" data-icon="Anchor" data-size="24px" data-weight="regular">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+                    <path
+                      d="M216,136a8,8,0,0,0-8,8,40,40,0,0,1-40,40,47.79,47.79,0,0,0-32,12.27V128h32a8,8,0,0,0,0-16H136V87a32,32,0,1,0-16,0v25H88a8,8,0,0,0,0,16h32v68.27A47.79,47.79,0,0,0,88,184a40,40,0,0,1-40-40,8,8,0,0,0-16,0,56.06,56.06,0,0,0,56,56,32,32,0,0,1,32,32,8,8,0,0,0,16,0,32,32,0,0,1,32-32,56.06,56.06,0,0,0,56-56A8,8,0,0,0,216,136ZM112,56a16,16,0,1,1,16,16A16,16,0,0,1,112,56Z"
+                    ></path>
+                  </svg>
+                </div>
+                <div class="flex flex-col gap-1">
+                  <h2 class="text-white text-base font-bold leading-tight">Anchor</h2>
+                  <p class="text-[#ab9db9] text-sm font-normal leading-normal">Symbolizes stability, hope, and steadfastness.</p>
+                </div>
+              </div>
+              <div class="flex flex-1 gap-3 rounded-lg border border-[#473b54] bg-[#211c27] p-4 flex-col">
+                <div class="text-white" data-icon="Anchor" data-size="24px" data-weight="regular">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+                    <path
+                      d="M216,136a8,8,0,0,0-8,8,40,40,0,0,1-40,40,47.79,47.79,0,0,0-32,12.27V128h32a8,8,0,0,0,0-16H136V87a32,32,0,1,0-16,0v25H88a8,8,0,0,0,0,16h32v68.27A47.79,47.79,0,0,0,88,184a40,40,0,0,1-40-40,8,8,0,0,0-16,0,56.06,56.06,0,0,0,56,56,32,32,0,0,1,32,32,8,8,0,0,0,16,0,32,32,0,0,1,32-32,56.06,56.06,0,0,0,56-56A8,8,0,0,0,216,136ZM112,56a16,16,0,1,1,16,16A16,16,0,0,1,112,56Z"
+                    ></path>
+                  </svg>
+                </div>
+                <div class="flex flex-col gap-1">
+                  <h2 class="text-white text-base font-bold leading-tight">Angel</h2>
+                  <p class="text-[#ab9db9] text-sm font-normal leading-normal">Signifies protection, guidance, and good news.</p>
+                </div>
+              </div>
+              <div class="flex flex-1 gap-3 rounded-lg border border-[#473b54] bg-[#211c27] p-4 flex-col">
+                <div class="text-white" data-icon="Bug" data-size="24px" data-weight="regular">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+                    <path
+                      d="M144,92a12,12,0,1,1,12,12A12,12,0,0,1,144,92ZM100,80a12,12,0,1,0,12,12A12,12,0,0,0,100,80Zm116,64A87.76,87.76,0,0,1,213,167l22.24,9.72A8,8,0,0,1,232,192a7.89,7.89,0,0,1-3.2-.67L207.38,182a88,88,0,0,1-158.76,0L27.2,191.33A7.89,7.89,0,0,1,24,192a8,8,0,0,1-3.2-15.33L43,167A87.76,87.76,0,0,1,40,144v-8H16a8,8,0,0,1,0-16H40v-8a87.76,87.76,0,0,1,3-23L20.8,79.33a8,8,0,1,1,6.4-14.66L48.62,74a88,88,0,0,1,158.76,0l21.42-9.36a8,8,0,0,1,6.4,14.66L213,89.05a87.76,87.76,0,0,1,3,23v8h24a8,8,0,0,1,0,16H216ZM56,120H200v-8a72,72,0,0,0-144,0Zm64,95.54V136H56v8A72.08,72.08,0,0,0,120,215.54ZM200,144v-8H136v79.54A72.08,72.08,0,0,0,200,144Z"
+                    ></path>
+                  </svg>
+                </div>
+                <div class="flex flex-col gap-1">
+                  <h2 class="text-white text-base font-bold leading-tight">Ant</h2>
+                  <p class="text-[#ab9db9] text-sm font-normal leading-normal">Indicates hard work, perseverance, and attention to detail.</p>
+                </div>
+              </div>
+              <div class="flex flex-1 gap-3 rounded-lg border border-[#473b54] bg-[#211c27] p-4 flex-col">
+                <div class="text-white" data-icon="Command" data-size="24px" data-weight="regular">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+                    <path
+                      d="M180,144H160V112h20a36,36,0,1,0-36-36V96H112V76a36,36,0,1,0-36,36H96v32H76a36,36,0,1,0,36,36V160h32v20a36,36,0,1,0,36-36ZM160,76a20,20,0,1,1,20,20H160ZM56,76a20,20,0,0,1,40,0V96H76A20,20,0,0,1,56,76ZM96,180a20,20,0,1,1-20-20H96Zm16-68h32v32H112Zm68,88a20,20,0,0,1-20-20V160h20a20,20,0,0,1,0,40Z"
+                    ></path>
+                  </svg>
+                </div>
+                <div class="flex flex-col gap-1">
+                  <h2 class="text-white text-base font-bold leading-tight">Apple</h2>
+                  <p class="text-[#ab9db9] text-sm font-normal leading-normal">Represents knowledge, health, and temptation.</p>
+                </div>
+              </div>
+              <div class="flex flex-1 gap-3 rounded-lg border border-[#473b54] bg-[#211c27] p-4 flex-col">
+                <div class="text-white" data-icon="Rainbow" data-size="24px" data-weight="regular">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+                    <path
+                      d="M184,168v16a8,8,0,0,1-16,0V168a40,40,0,0,0-80,0v16a8,8,0,0,1-16,0V168a56,56,0,0,1,112,0ZM128,80a88.1,88.1,0,0,0-88,88v16a8,8,0,0,0,16,0V168a72,72,0,0,1,144,0v16a8,8,0,0,0,16,0V168A88.1,88.1,0,0,0,128,80Zm0-32A120.13,120.13,0,0,0,8,168v16a8,8,0,0,0,16,0V168a104,104,0,0,1,208,0v16a8,8,0,0,0,16,0V168A120.13,120.13,0,0,0,128,48Z"
+                    ></path>
+                  </svg>
+                </div>
+                <div class="flex flex-col gap-1">
+                  <h2 class="text-white text-base font-bold leading-tight">Arch</h2>
+                  <p class="text-[#ab9db9] text-sm font-normal leading-normal">Suggests new beginnings, opportunities, and support.</p>
+                </div>
+              </div>
+              <div class="flex flex-1 gap-3 rounded-lg border border-[#473b54] bg-[#211c27] p-4 flex-col">
+                <div class="text-white" data-icon="Share" data-size="24px" data-weight="regular">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+                    <path
+                      d="M229.66,109.66l-48,48a8,8,0,0,1-11.32-11.32L204.69,112H165a88,88,0,0,0-85.23,66,8,8,0,0,1-15.5-4A103.94,103.94,0,0,1,165,96h39.71L170.34,61.66a8,8,0,0,1,11.32-11.32l48,48A8,8,0,0,1,229.66,109.66ZM192,208H40V88a8,8,0,0,0-16,0V208a16,16,0,0,0,16,16H192a8,8,0,0,0,0-16Z"
+                    ></path>
+                  </svg>
+                </div>
+                <div class="flex flex-col gap-1">
+                  <h2 class="text-white text-base font-bold leading-tight">Arrow</h2>
+                  <p class="text-[#ab9db9] text-sm font-normal leading-normal">Symbolizes direction, ambition, and messages.</p>
+                </div>
+              </div>
+              <div class="flex flex-1 gap-3 rounded-lg border border-[#473b54] bg-[#211c27] p-4 flex-col">
+                <div class="text-white" data-icon="X" data-size="24px" data-weight="regular">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+                    <path
+                      d="M205.66,194.34a8,8,0,0,1-11.32,11.32L128,139.31,61.66,205.66a8,8,0,0,1-11.32-11.32L116.69,128,50.34,61.66A8,8,0,0,1,61.66,50.34L128,116.69l66.34-66.35a8,8,0,0,1,11.32,11.32L139.31,128Z"
+                    ></path>
+                  </svg>
+                </div>
+                <div class="flex flex-col gap-1">
+                  <h2 class="text-white text-base font-bold leading-tight">Axe</h2>
+                  <p class="text-[#ab9db9] text-sm font-normal leading-normal">Represents strength, decisiveness, and cutting through obstacles.</p>
+                </div>
+              </div>
+            </div>
+            <h3 class="text-white text-lg font-bold leading-tight tracking-[-0.015em] px-4 pb-2 pt-4">B</h3>
+            <div class="grid grid-cols-[repeat(auto-fit,minmax(158px,1fr))] gap-3 p-4">
+              <div class="flex flex-1 gap-3 rounded-lg border border-[#473b54] bg-[#211c27] p-4 flex-col">
+                <div class="text-white" data-icon="Baby" data-size="24px" data-weight="regular">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+                    <path
+                      d="M92,140a12,12,0,1,1,12-12A12,12,0,0,1,92,140Zm72-24a12,12,0,1,0,12,12A12,12,0,0,0,164,116Zm-12.27,45.23a45,45,0,0,1-47.46,0,8,8,0,0,0-8.54,13.54,61,61,0,0,0,64.54,0,8,8,0,0,0-8.54-13.54ZM232,128A104,104,0,1,1,128,24,104.11,104.11,0,0,1,232,128Zm-16,0a88.11,88.11,0,0,0-84.09-87.91C120.32,56.38,120,71.88,120,72a8,8,0,0,0,16,0,8,8,0,0,1,16,0,24,24,0,0,1-48,0c0-.73.13-14.3,8.46-30.63A88,88,0,1,0,216,128Z"
+                    ></path>
+                  </svg>
+                </div>
+                <div class="flex flex-col gap-1">
+                  <h2 class="text-white text-base font-bold leading-tight">Baby</h2>
+                  <p class="text-[#ab9db9] text-sm font-normal leading-normal">Represents new beginnings, innocence, and potential.</p>
+                </div>
+              </div>
+              <div class="flex flex-1 gap-3 rounded-lg border border-[#473b54] bg-[#211c27] p-4 flex-col">
+                <div class="text-white" data-icon="Bag" data-size="24px" data-weight="regular">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+                    <path
+                      d="M216,64H176a48,48,0,0,0-96,0H40A16,16,0,0,0,24,80V200a16,16,0,0,0,16,16H216a16,16,0,0,0,16-16V80A16,16,0,0,0,216,64ZM128,32a32,32,0,0,1,32,32H96A32,32,0,0,1,128,32Zm88,168H40V80H80V96a8,8,0,0,0,16,0V80h64V96a8,8,0,0,0,16,0V80h40Z"
+                    ></path>
+                  </svg>
+                </div>
+                <div class="flex flex-col gap-1">
+                  <h2 class="text-white text-base font-bold leading-tight">Bag</h2>
+                  <p class="text-[#ab9db9] text-sm font-normal leading-normal">Symbolizes secrets, surprises, and burdens.</p>
+                </div>
+              </div>
+              <div class="flex flex-1 gap-3 rounded-lg border border-[#473b54] bg-[#211c27] p-4 flex-col">
+                <div class="text-white" data-icon="SoccerBall" data-size="24px" data-weight="regular">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+                    <path
+                      d="M128,24A104,104,0,1,0,232,128,104.11,104.11,0,0,0,128,24Zm76.52,147.42H170.9l-9.26-12.76,12.63-36.78,15-4.89,26.24,20.13A87.38,87.38,0,0,1,204.52,171.42Zm-164-34.3L66.71,117l15,4.89,12.63,36.78L85.1,171.42H51.48A87.38,87.38,0,0,1,40.47,137.12Zm10-50.64,5.51,18.6L40.71,116.77A87.33,87.33,0,0,1,50.43,86.48ZM109,152,97.54,118.65,128,97.71l30.46,20.94L147,152Zm91.07-46.92,5.51-18.6a87.33,87.33,0,0,1,9.72,30.29Zm-6.2-35.38-9.51,32.08-15.07,4.89L136,83.79V68.21l29.09-20A88.58,88.58,0,0,1,193.86,69.7ZM146.07,41.87,128,54.29,109.93,41.87a88.24,88.24,0,0,1,36.14,0ZM90.91,48.21l29.09,20V83.79L86.72,106.67l-15.07-4.89L62.14,69.7A88.58,88.58,0,0,1,90.91,48.21ZM63.15,187.42H83.52l7.17,20.27A88.4,88.4,0,0,1,63.15,187.42ZM110,214.13,98.12,180.71,107.35,168h41.3l9.23,12.71-11.83,33.42a88,88,0,0,1-36.1,0Zm55.36-6.44,7.17-20.27h20.37A88.4,88.4,0,0,1,165.31,207.69Z"
+                    ></path>
+                  </svg>
+                </div>
+                <div class="flex flex-col gap-1">
+                  <h2 class="text-white text-base font-bold leading-tight">Ball</h2>
+                  <p class="text-[#ab9db9] text-sm font-normal leading-normal">Indicates flexibility, change, and bouncing back.</p>
+                </div>
+              </div>
+              <div class="flex flex-1 gap-3 rounded-lg border border-[#473b54] bg-[#211c27] p-4 flex-col">
+                <div class="text-white" data-icon="Baseball" data-size="24px" data-weight="regular">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+                    <path
+                      d="M128,24A104,104,0,1,0,232,128,104.11,104.11,0,0,0,128,24ZM72.09,195.91c.82-1,1.64-1.93,2.42-2.91A8,8,0,1,0,62,183l-1.34,1.62a87.82,87.82,0,0,1,0-113.24L62,73A8,8,0,1,0,74.51,63c-.78-1-1.6-2-2.42-2.91a87.84,87.84,0,0,1,111.82,0c-.82,1-1.64,1.92-2.42,2.91A8,8,0,1,0,194,73l1.34-1.62a87.82,87.82,0,0,1,0,113.24L194,183a8,8,0,1,0-12.48,10c.78,1,1.6,1.95,2.42,2.91a87.84,87.84,0,0,1-111.82,0Zm23.8-50.59a104.5,104.5,0,0,1-4.48,17.35,8,8,0,0,1-15.09-5.34,87.1,87.1,0,0,0,3.79-14.65,8,8,0,1,1,15.78,2.64Zm0-34.64a8,8,0,0,1-6.57,9.21A8.52,8.52,0,0,1,88,120a8,8,0,0,1-7.88-6.68,87.1,87.1,0,0,0-3.79-14.65,8,8,0,0,1,15.09-5.34A104.5,104.5,0,0,1,95.89,110.68Zm78.91,56.86a8,8,0,0,1-10.21-4.87,104.5,104.5,0,0,1-4.48-17.35,8,8,0,1,1,15.78-2.64,87.1,87.1,0,0,0,3.79,14.65A8,8,0,0,1,174.8,167.54Zm-14.69-56.86a104.5,104.5,0,0,1,4.48-17.35,8,8,0,0,1,15.09,5.34,87.1,87.1,0,0,0-3.79,14.65A8,8,0,0,1,168,120a8.52,8.52,0,0,1-1.33-.11A8,8,0,0,1,160.11,110.68Z"
+                    ></path>
+                  </svg>
+                </div>
+                <div class="flex flex-col gap-1">
+                  <h2 class="text-white text-base font-bold leading-tight">Bat</h2>
+                  <p class="text-[#ab9db9] text-sm font-normal leading-normal">Signifies intuition, dreams, and transformation.</p>
+                </div>
+              </div>
+              <div class="flex flex-1 gap-3 rounded-lg border border-[#473b54] bg-[#211c27] p-4 flex-col">
+                <div class="text-white" data-icon="Park" data-size="24px" data-weight="regular">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+                    <path
+                      d="M232,192H200V168h24a8,8,0,0,0,7.76-9.94l-32-128a8,8,0,0,0-15.52,0l-32,128A8,8,0,0,0,160,168h24v24H120V176h8a8,8,0,0,0,0-16h-8V144h8a8,8,0,0,0,0-16H40a8,8,0,0,0,0,16h8v16H40a8,8,0,0,0,0,16h8v16H24a8,8,0,0,0,0,16H232a8,8,0,0,0,0-16ZM192,65l21.75,87h-43.5ZM64,144h40v16H64Zm0,32h40v16H64Zm52-80A28,28,0,1,0,88,68,28,28,0,0,0,116,96Zm0-40a12,12,0,1,1-12,12A12,12,0,0,1,116,56Z"
+                    ></path>
+                  </svg>
+                </div>
+                <div class="flex flex-col gap-1">
+                  <h2 class="text-white text-base font-bold leading-tight">Bear</h2>
+                  <p class="text-[#ab9db9] text-sm font-normal leading-normal">Represents strength, courage, and challenges.</p>
+                </div>
+              </div>
+              <div class="flex flex-1 gap-3 rounded-lg border border-[#473b54] bg-[#211c27] p-4 flex-col">
+                <div class="text-white" data-icon="Bell" data-size="24px" data-weight="regular">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+                    <path
+                      d="M221.8,175.94C216.25,166.38,208,139.33,208,104a80,80,0,1,0-160,0c0,35.34-8.26,62.38-13.81,71.94A16,16,0,0,0,48,200H88.81a40,40,0,0,0,78.38,0H208a16,16,0,0,0,13.8-24.06ZM128,216a24,24,0,0,1-22.62-16h45.24A24,24,0,0,1,128,216ZM48,184c7.7-13.24,16-43.92,16-80a64,64,0,1,1,128,0c0,36.05,8.28,66.73,16,80Z"
+                    ></path>
+                  </svg>
+                </div>
+                <div class="flex flex-col gap-1">
+                  <h2 class="text-white text-base font-bold leading-tight">Bell</h2>
+                  <p class="text-[#ab9db9] text-sm font-normal leading-normal">Suggests important news, announcements, and celebrations.</p>
+                </div>
+              </div>
+              <div class="flex flex-1 gap-3 rounded-lg border border-[#473b54] bg-[#211c27] p-4 flex-col">
+                <div class="text-white" data-icon="Bird" data-size="24px" data-weight="regular">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+                    <path
+                      d="M176,68a12,12,0,1,1-12-12A12,12,0,0,1,176,68Zm-50.88,61.85a8,8,0,0,0-11.27,1l-40,48a8,8,0,0,0,12.3,10.24l40-48A8,8,0,0,0,125.12,129.85ZM240,80a8,8,0,0,1-3.56,6.66L216,100.28V120A104.11,104.11,0,0,1,112,224H8a8,8,0,0,1-6.25-13L96,93.19V76A60,60,0,0,1,213.21,57.86l23.23,15.48A8,8,0,0,1,240,80Zm-22.42,0L201.9,69.54a8,8,0,0,1-3.31-4.64A44,44,0,0,0,112,76V96a8,8,0,0,1-1.75,5L24.64,208H112a88.1,88.1,0,0,0,88-88V96a8,8,0,0,1,3.56-6.66Z"
+                    ></path>
+                  </svg>
+                </div>
+                <div class="flex flex-col gap-1">
+                  <h2 class="text-white text-base font-bold leading-tight">Bird</h2>
+                  <p class="text-[#ab9db9] text-sm font-normal leading-normal">Symbolizes messages, communication, and freedom.</p>
+                </div>
+              </div>
+              <div class="flex flex-1 gap-3 rounded-lg border border-[#473b54] bg-[#211c27] p-4 flex-col">
+                <div class="text-white" data-icon="Boat" data-size="24px" data-weight="regular">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+                    <path
+                      d="M221.06,110.63,208,106.27V56a16,16,0,0,0-16-16H136V24a8,8,0,0,0-16,0V40H64A16,16,0,0,0,48,56v50.27l-13.06,4.36A16,16,0,0,0,24,125.82V160.1a7.73,7.73,0,0,0,.31,2.19c15.72,55.09,86.12,74.06,100.07,77.3a16.19,16.19,0,0,0,7.24,0c13.95-3.24,84.35-22.21,100.07-77.3a7.73,7.73,0,0,0,.31-2.19V125.82A16,16,0,0,0,221.06,110.63ZM64,56H192v44.93L130.53,80.41a8,8,0,0,0-5.06,0L64,100.93ZM216,158.94c-5.78,19-20.55,35.17-43.95,48.12A181.7,181.7,0,0,1,128,224a181.7,181.7,0,0,1-44-16.94C60.56,194.11,45.78,177.93,40,158.94V125.81l80-26.7V168a8,8,0,0,0,16,0V99.11l80,26.71Z"
+                    ></path>
+                  </svg>
+                </div>
+                <div class="flex flex-col gap-1">
+                  <h2 class="text-white text-base font-bold leading-tight">Boat</h2>
+                  <p class="text-[#ab9db9] text-sm font-normal leading-normal">Indicates travel, adventure, and emotional journeys.</p>
+                </div>
+              </div>
+              <div class="flex flex-1 gap-3 rounded-lg border border-[#473b54] bg-[#211c27] p-4 flex-col">
+                <div class="text-white" data-icon="Book" data-size="24px" data-weight="regular">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+                    <path
+                      d="M208,24H72A32,32,0,0,0,40,56V224a8,8,0,0,0,8,8H192a8,8,0,0,0,0-16H56a16,16,0,0,1,16-16H208a8,8,0,0,0,8-8V32A8,8,0,0,0,208,24Zm-8,160H72a31.82,31.82,0,0,0-16,4.29V56A16,16,0,0,1,72,40H200Z"
+                    ></path>
+                  </svg>
+                </div>
+                <div class="flex flex-col gap-1">
+                  <h2 class="text-white text-base font-bold leading-tight">Book</h2>
+                  <p class="text-[#ab9db9] text-sm font-normal leading-normal">Represents knowledge, learning, and hidden information.</p>
+                </div>
+              </div>
+              <div class="flex flex-1 gap-3 rounded-lg border border-[#473b54] bg-[#211c27] p-4 flex-col">
+                <div class="text-white" data-icon="BeerBottle" data-size="24px" data-weight="regular">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+                    <path
+                      d="M245.66,42.34l-32-32a8,8,0,0,0-11.32,11.32l1.48,1.47L148.65,64.51l-38.22,7.65a8.05,8.05,0,0,0-4.09,2.18L23,157.66a24,24,0,0,0,0,33.94L64.4,233a24,24,0,0,0,33.94,0l83.32-83.31a8,8,0,0,0,2.18-4.09l7.65-38.22,41.38-55.17,1.47,1.48a8,8,0,0,0,11.32-11.32ZM96,107.31,148.69,160,104,204.69,51.31,152ZM81.37,224a7.94,7.94,0,0,1-5.65-2.34L34.34,180.28a8,8,0,0,1,0-11.31L40,163.31,92.69,216,87,221.66A8,8,0,0,1,81.37,224ZM177.6,99.2a7.92,7.92,0,0,0-1.44,3.23l-7.53,37.63L160,148.69,107.31,96l8.63-8.63,37.63-7.53a7.92,7.92,0,0,0,3.23-1.44l58.45-43.84,6.19,6.19Z"
+                    ></path>
+                  </svg>
+                </div>
+                <div class="flex flex-col gap-1">
+                  <h2 class="text-white text-base font-bold leading-tight">Bottle</h2>
+                  <p class="text-[#ab9db9] text-sm font-normal leading-normal">Signifies emotions, secrets, and hidden feelings.</p>
+                </div>
+              </div>
+              <div class="flex flex-1 gap-3 rounded-lg border border-[#473b54] bg-[#211c27] p-4 flex-col">
+                <div class="text-white" data-icon="Command" data-size="24px" data-weight="regular">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+                    <path
+                      d="M180,144H160V112h20a36,36,0,1,0-36-36V96H112V76a36,36,0,1,0-36,36H96v32H76a36,36,0,1,0,36,36V160h32v20a36,36,0,1,0,36-36ZM160,76a20,20,0,1,1,20,20H160ZM56,76a20,20,0,0,1,40,0V96H76A20,20,0,0,1,56,76ZM96,180a20,20,0,1,1-20-20H96Zm16-68h32v32H112Zm68,88a20,20,0,0,1-20-20V160h20a20,20,0,0,1,0,40Z"
+                    ></path>
+                  </svg>
+                </div>
+                <div class="flex flex-col gap-1">
+                  <h2 class="text-white text-base font-bold leading-tight">Bow</h2>
+                  <p class="text-[#ab9db9] text-sm font-normal leading-normal">Symbolizes gifts, connections, and relationships.</p>
+                </div>
+              </div>
+              <div class="flex flex-1 gap-3 rounded-lg border border-[#473b54] bg-[#211c27] p-4 flex-col">
+                <div class="text-white" data-icon="Package" data-size="24px" data-weight="regular">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+                    <path
+                      d="M223.68,66.15,135.68,18a15.88,15.88,0,0,0-15.36,0l-88,48.17a16,16,0,0,0-8.32,14v95.64a16,16,0,0,0,8.32,14l88,48.17a15.88,15.88,0,0,0,15.36,0l88-48.17a16,16,0,0,0,8.32-14V80.18A16,16,0,0,0,223.68,66.15ZM128,32l80.34,44-29.77,16.3-80.35-44ZM128,120,47.66,76l33.9-18.56,80.34,44ZM40,90l80,43.78v85.79L40,175.82Zm176,85.78h0l-80,43.79V133.82l32-17.51V152a8,8,0,0,0,16,0V107.55L216,90v85.77Z"
+                    ></path>
+                  </svg>
+                </div>
+                <div class="flex flex-col gap-1">
+                  <h2 class="text-white text-base font-bold leading-tight">Box</h2>
+                  <p class="text-[#ab9db9] text-sm font-normal leading-normal">Indicates opportunities, surprises, and hidden contents.</p>
+                </div>
+              </div>
+              <div class="flex flex-1 gap-3 rounded-lg border border-[#473b54] bg-[#211c27] p-4 flex-col">
+                <div class="text-white" data-icon="Bridge" data-size="24px" data-weight="regular">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+                    <path
+                      d="M232,160H200V101.34a71.89,71.89,0,0,0,29,21.42,8,8,0,0,0,6-14.83A55.78,55.78,0,0,1,200,56a8,8,0,0,0-16,0A56,56,0,0,1,72,56a8,8,0,0,0-16,0,55.78,55.78,0,0,1-35,51.93,8,8,0,0,0,6,14.83,71.89,71.89,0,0,0,29-21.42V160H24a8,8,0,0,0,0,16H56v24a8,8,0,0,0,16,0V176H184v24a8,8,0,0,0,16,0V176h32a8,8,0,0,0,0-16Zm-88-33.8V160H112V126.2a72,72,0,0,0,32,0Zm-72-25a72.47,72.47,0,0,0,24,19.27V160H72ZM160,160V120.48a72.47,72.47,0,0,0,24-19.27V160Z"
+                    ></path>
+                  </svg>
+                </div>
+                <div class="flex flex-col gap-1">
+                  <h2 class="text-white text-base font-bold leading-tight">Bridge</h2>
+                  <p class="text-[#ab9db9] text-sm font-normal leading-normal">Represents transitions, connections, and overcoming obstacles.</p>
+                </div>
+              </div>
+              <div class="flex flex-1 gap-3 rounded-lg border border-[#473b54] bg-[#211c27] p-4 flex-col">
+                <div class="text-white" data-icon="Butterfly" data-size="24px" data-weight="regular">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+                    <path
+                      d="M232.7,50.48C229,45.7,221.84,40,209,40c-16.85,0-38.46,11.28-57.81,30.16A140.07,140.07,0,0,0,136,87.53V56a8,8,0,0,0-16,0V87.53a140.07,140.07,0,0,0-15.15-17.37C85.49,51.28,63.88,40,47,40,34.16,40,27,45.7,23.3,50.48c-6.82,8.77-12.18,24.08-.21,71.2,6.05,23.83,19.51,33,30.63,36.42A44,44,0,0,0,128,205.27a44,44,0,0,0,74.28-47.17c11.12-3.4,24.57-12.59,30.63-36.42C239.63,95.24,244.85,66.1,232.7,50.48ZM92,208A28.12,28.12,0,0,1,88.86,152a8,8,0,1,0-1.76-15.9A43.64,43.64,0,0,0,66.36,144c-8.43.09-22-3.57-27.76-26.26C35.72,106.39,27,71.86,35.94,60.3,37.37,58.46,40.09,56,47,56c27.27,0,73,44.88,73,71.67V180A28,28,0,0,1,92,208ZM217.4,117.74c-5.77,22.69-19.33,26.34-27.77,26.26a43.6,43.6,0,0,0-20.74-7.95,8,8,0,1,0-1.76,15.9A28.11,28.11,0,1,1,136,180V127.67C136,100.88,181.69,56,209,56c6.95,0,9.66,2.46,11.1,4.3C229.05,71.86,220.28,106.39,217.4,117.74Z"
+                    ></path>
+                  </svg>
+                </div>
+                <div class="flex flex-col gap-1">
+                  <h2 class="text-white text-base font-bold leading-tight">Butterfly</h2>
+                  <p class="text-[#ab9db9] text-sm font-normal leading-normal">Signifies transformation, joy, and personal growth.</p>
+                </div>
+              </div>
+            </div>
+            <h3 class="text-white text-lg font-bold leading-tight tracking-[-0.015em] px-4 pb-2 pt-4">C</h3>
+            <div class="grid grid-cols-[repeat(auto-fit,minmax(158px,1fr))] gap-3 p-4">
+              <div class="flex flex-1 gap-3 rounded-lg border border-[#473b54] bg-[#211c27] p-4 flex-col">
+                <div class="text-white" data-icon="Cube" data-size="24px" data-weight="regular">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+                    <path
+                      d="M223.68,66.15,135.68,18h0a15.88,15.88,0,0,0-15.36,0l-88,48.17a16,16,0,0,0-8.32,14v95.64a16,16,0,0,0,8.32,14l88,48.17a15.88,15.88,0,0,0,15.36,0l88-48.17a16,16,0,0,0,8.32-14V80.18A16,16,0,0,0,223.68,66.15ZM128,32h0l80.34,44L128,120,47.66,76ZM40,90l80,43.78v85.79L40,175.82Zm96,129.57V133.82L216,90v85.78Z"
+                    ></path>
+                  </svg>
+                </div>
+                <div class="flex flex-col gap-1">
+                  <h2 class="text-white text-base font-bold leading-tight">Cage</h2>
+                  <p class="text-[#ab9db9] text-sm font-normal leading-normal">Represents restrictions, limitations, and feeling trapped.</p>
+                </div>
+              </div>
+              <div class="flex flex-1 gap-3 rounded-lg border border-[#473b54] bg-[#211c27] p-4 flex-col">
+                <div class="text-white" data-icon="Flame" data-size="24px" data-weight="regular">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+                    <path
+                      d="M173.79,51.48a221.25,221.25,0,0,0-41.67-34.34,8,8,0,0,0-8.24,0A221.25,221.25,0,0,0,82.21,51.48C54.59,80.48,40,112.47,40,144a88,88,0,0,0,176,0C216,112.47,201.41,80.48,173.79,51.48ZM96,184c0-27.67,22.53-47.28,32-54.3,9.48,7,32,26.63,32,54.3a32,32,0,0,1-64,0Zm77.27,15.93A47.8,47.8,0,0,0,176,184c0-44-42.09-69.79-43.88-70.86a8,8,0,0,0-8.24,0C122.09,114.21,80,140,80,184a47.8,47.8,0,0,0,2.73,15.93A71.88,71.88,0,0,1,56,144c0-34.41,20.4-63.15,37.52-81.19A216.21,216.21,0,0,1,128,33.54a215.77,215.77,0,0,1,34.48,29.27C193.49,95.5,200,125,200,144A71.88,71.88,0,0,1,173.27,199.93Z"
+                    ></path>
+                  </svg>
+                </div>
+                <div class="flex flex-col gap-1">
+                  <h2 class="text-white text-base font-bold leading-tight">Candle</h2>
+                  <p class="text-[#ab9db9] text-sm font-normal leading-normal">Symbolizes hope, guidance, and spiritual illumination.</p>
+                </div>
+              </div>
+              <div class="flex flex-1 gap-3 rounded-lg border border-[#473b54] bg-[#211c27] p-4 flex-col">
+                <div class="text-white" data-icon="Car" data-size="24px" data-weight="regular">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+                    <path
+                      d="M240,112H229.2L201.42,49.5A16,16,0,0,0,186.8,40H69.2a16,16,0,0,0-14.62,9.5L26.8,112H16a8,8,0,0,0,0,16h8v80a16,16,0,0,0,16,16H64a16,16,0,0,0,16-16V192h96v16a16,16,0,0,0,16,16h24a16,16,0,0,0,16-16V128h8a8,8,0,0,0,0-16ZM69.2,56H186.8l24.89,56H44.31ZM64,208H40V192H64Zm128,0V192h24v16Zm24-32H40V128H216ZM56,152a8,8,0,0,1,8-8H80a8,8,0,0,1,0,16H64A8,8,0,0,1,56,152Zm112,0a8,8,0,0,1,8-8h16a8,8,0,0,1,0,16H176A8,8,0,0,1,168,152Z"
+                    ></path>
+                  </svg>
+                </div>
+                <div class="flex flex-col gap-1">
+                  <h2 class="text-white text-base font-bold leading-tight">Car</h2>
+                  <p class="text-[#ab9db9] text-sm font-normal leading-normal">Indicates progress, movement, and life's journey.</p>
+                </div>
+              </div>
+              <div class="flex flex-1 gap-3 rounded-lg border border-[#473b54] bg-[#211c27] p-4 flex-col">
+                <div class="text-white" data-icon="Cat" data-size="24px" data-weight="regular">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+                    <path
+                      d="M96,140a12,12,0,1,1-12-12A12,12,0,0,1,96,140Zm76-12a12,12,0,1,0,12,12A12,12,0,0,0,172,128Zm60-80v88c0,52.93-46.65,96-104,96S24,188.93,24,136V48A16,16,0,0,1,51.31,36.69c.14.14.26.27.38.41L69,57a111.22,111.22,0,0,1,118.1,0L204.31,37.1c.12-.14.24-.27.38-.41A16,16,0,0,1,232,48Zm-16,0-21.56,24.8A8,8,0,0,1,183.63,74,88.86,88.86,0,0,0,168,64.75V88a8,8,0,1,1-16,0V59.05a97.43,97.43,0,0,0-16-2.72V88a8,8,0,1,1-16,0V56.33a97.43,97.43,0,0,0-16,2.72V88a8,8,0,1,1-16,0V64.75A88.86,88.86,0,0,0,72.37,74a8,8,0,0,1-10.81-1.17L40,48v88c0,41.66,35.21,76,80,79.67V195.31l-13.66-13.66a8,8,0,0,1,11.32-11.31L128,180.68l10.34-10.34a8,8,0,0,1,11.32,11.31L136,195.31v20.36c44.79-3.69,80-38,80-79.67Z"
+                    ></path>
+                  </svg>
+                </div>
+                <div class="flex flex-col gap-1">
+                  <h2 class="text-white text-base font-bold leading-tight">Cat</h2>
+                  <p class="text-[#ab9db9] text-sm font-normal leading-normal">Signifies independence, mystery, and intuition.</p>
+                </div>
+              </div>
+              <div class="flex flex-1 gap-3 rounded-lg border border-[#473b54] bg-[#211c27] p-4 flex-col">
+                <div class="text-white" data-icon="Link" data-size="24px" data-weight="regular">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+                    <path
+                      d="M137.54,186.36a8,8,0,0,1,0,11.31l-9.94,10A56,56,0,0,1,48.38,128.4L72.5,104.28A56,56,0,0,1,149.31,102a8,8,0,1,1-10.64,12,40,40,0,0,0-54.85,1.63L59.7,139.72a40,40,0,0,0,56.58,56.58l9.94-9.94A8,8,0,0,1,137.54,186.36Zm70.08-138a56.08,56.08,0,0,0-79.22,0l-9.94,9.95a8,8,0,0,0,11.32,11.31l9.94-9.94a40,40,0,0,1,56.58,56.58L172.18,140.4A40,40,0,0,1,117.33,142,8,8,0,1,0,106.69,154a56,56,0,0,0,76.81-2.26l24.12-24.12A56.08,56.08,0,0,0,207.62,48.38Z"
+                    ></path>
+                  </svg>
+                </div>
+                <div class="flex flex-col gap-1">
+                  <h2 class="text-white text-base font-bold leading-tight">Chain</h2>
+                  <p class="text-[#ab9db9] text-sm font-normal leading-normal">Represents connections, commitments, and responsibilities.</p>
+                </div>
+              </div>
+              <div class="flex flex-1 gap-3 rounded-lg border border-[#473b54] bg-[#211c27] p-4 flex-col">
+                <div class="text-white" data-icon="Chair" data-size="24px" data-weight="regular">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+                    <path
+                      d="M208,136H176V104h16a16,16,0,0,0,16-16V40a16,16,0,0,0-16-16H64A16,16,0,0,0,48,40V88a16,16,0,0,0,16,16H80v32H48a16,16,0,0,0-16,16v16a16,16,0,0,0,16,16h8v40a8,8,0,0,0,16,0V184H184v40a8,8,0,0,0,16,0V184h8a16,16,0,0,0,16-16V152A16,16,0,0,0,208,136ZM64,40H192V88H64Zm32,64h64v32H96Zm112,64H48V152H208v16Z"
+                    ></path>
+                  </svg>
+                </div>
+                <div class="flex flex-col gap-1">
+                  <h2 class="text-white text-base font-bold leading-tight">Chair</h2>
+                  <p class="text-[#ab9db9] text-sm font-normal leading-normal">Suggests rest, relaxation, and taking a break.</p>
+                </div>
+              </div>
+              <div class="flex flex-1 gap-3 rounded-lg border border-[#473b54] bg-[#211c27] p-4 flex-col">
+                <div class="text-white" data-icon="Circle" data-size="24px" data-weight="regular">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+                    <path d="M128,24A104,104,0,1,0,232,128,104.11,104.11,0,0,0,128,24Zm0,192a88,88,0,1,1,88-88A88.1,88.1,0,0,1,128,216Z"></path>
+                  </svg>
+                </div>
+                <div class="flex flex-col gap-1">
+                  <h2 class="text-white text-base font-bold leading-tight">Circle</h2>
+                  <p class="text-[#ab9db9] text-sm font-normal leading-normal">Symbolizes cycles, completion, and wholeness.</p>
+                </div>
+              </div>
+              <div class="flex flex-1 gap-3 rounded-lg border border-[#473b54] bg-[#211c27] p-4 flex-col">
+                <div class="text-white" data-icon="Clock" data-size="24px" data-weight="regular">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+                    <path
+                      d="M128,24A104,104,0,1,0,232,128,104.11,104.11,0,0,0,128,24Zm0,192a88,88,0,1,1,88-88A88.1,88.1,0,0,1,128,216Zm64-88a8,8,0,0,1-8,8H128a8,8,0,0,1-8-8V72a8,8,0,0,1,16,0v48h48A8,8,0,0,1,192,128Z"
+                    ></path>
+                  </svg>
+                </div>
+                <div class="flex flex-col gap-1">
+                  <h2 class="text-white text-base font-bold leading-tight">Clock</h2>
+                  <p class="text-[#ab9db9] text-sm font-normal leading-normal">Indicates timing, deadlines, and the passage of time.</p>
+                </div>
+              </div>
+              <div class="flex flex-1 gap-3 rounded-lg border border-[#473b54] bg-[#211c27] p-4 flex-col">
+                <div class="text-white" data-icon="Cloud" data-size="24px" data-weight="regular">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+                    <path
+                      d="M160,40A88.09,88.09,0,0,0,81.29,88.67,64,64,0,1,0,72,216h88a88,88,0,0,0,0-176Zm0,160H72a48,48,0,0,1,0-96c1.1,0,2.2,0,3.29.11A88,88,0,0,0,72,128a8,8,0,0,0,16,0,72,72,0,1,1,72,72Z"
+                    ></path>
+                  </svg>
+                </div>
+                <div class="flex flex-col gap-1">
+                  <h2 class="text-white text-base font-bold leading-tight">Cloud</h2>
+                  <p class="text-[#ab9db9] text-sm font-normal leading-normal">Represents uncertainty, confusion, and emotional turmoil.</p>
+                </div>
+              </div>
+              <div class="flex flex-1 gap-3 rounded-lg border border-[#473b54] bg-[#211c27] p-4 flex-col">
+                <div class="text-white" data-icon="Coin" data-size="24px" data-weight="regular">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+                    <path
+                      d="M207.58,63.84C186.85,53.48,159.33,48,128,48S69.15,53.48,48.42,63.84,16,88.78,16,104v48c0,15.22,11.82,29.85,32.42,40.16S96.67,208,128,208s58.85-5.48,79.58-15.84S240,167.22,240,152V104C240,88.78,228.18,74.15,207.58,63.84ZM128,64c62.64,0,96,23.23,96,40s-33.36,40-96,40-96-23.23-96-40S65.36,64,128,64Zm-8,95.86v32c-19-.62-35-3.42-48-7.49V153.05A203.43,203.43,0,0,0,120,159.86Zm16,0a203.43,203.43,0,0,0,48-6.81v31.31c-13,4.07-29,6.87-48,7.49ZM32,152V133.53a82.88,82.88,0,0,0,16.42,10.63c2.43,1.21,5,2.35,7.58,3.43V178C40.17,170.16,32,160.29,32,152Zm168,26V147.59c2.61-1.08,5.15-2.22,7.58-3.43A82.88,82.88,0,0,0,224,133.53V152C224,160.29,215.83,170.16,200,178Z"
+                    ></path>
+                  </svg>
+                </div>
+                <div class="flex flex-col gap-1">
+                  <h2 class="text-white text-base font-bold leading-tight">Coin</h2>
+                  <p class="text-[#ab9db9] text-sm font-normal leading-normal">Signifies wealth, prosperity, and financial matters.</p>
+                </div>
+              </div>
+              <div class="flex flex-1 gap-3 rounded-lg border border-[#473b54] bg-[#211c27] p-4 flex-col">
+                <div class="text-white" data-icon="Broom" data-size="24px" data-weight="regular">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+                    <path
+                      d="M235.5,216.81c-22.56-11-35.5-34.58-35.5-64.8V134.73a15.94,15.94,0,0,0-10.09-14.87L165,110a8,8,0,0,1-4.48-10.34l21.32-53a28,28,0,0,0-16.1-37,28.14,28.14,0,0,0-35.82,16,.61.61,0,0,0,0,.12L108.9,79a8,8,0,0,1-10.37,4.49L73.11,73.14A15.89,15.89,0,0,0,55.74,76.8C34.68,98.45,24,123.75,24,152a111.45,111.45,0,0,0,31.18,77.53A8,8,0,0,0,61,232H232a8,8,0,0,0,3.5-15.19ZM67.14,88l25.41,10.3a24,24,0,0,0,31.23-13.45l21-53c2.56-6.11,9.47-9.27,15.43-7a12,12,0,0,1,6.88,15.92L145.69,93.76a24,24,0,0,0,13.43,31.14L184,134.73V152c0,.33,0,.66,0,1L55.77,101.71A108.84,108.84,0,0,1,67.14,88Zm48,128a87.53,87.53,0,0,1-24.34-42,8,8,0,0,0-15.49,4,105.16,105.16,0,0,0,18.36,38H64.44A95.54,95.54,0,0,1,40,152a85.9,85.9,0,0,1,7.73-36.29l137.8,55.12c3,18,10.56,33.48,21.89,45.16Z"
+                    ></path>
+                  </svg>
+                </div>
+                <div class="flex flex-col gap-1">
+                  <h2 class="text-white text-base font-bold leading-tight">Comb</h2>
+                  <p class="text-[#ab9db9] text-sm font-normal leading-normal">Symbolizes self-care, grooming, and attention to detail.</p>
+                </div>
+              </div>
+              <div class="flex flex-1 gap-3 rounded-lg border border-[#473b54] bg-[#211c27] p-4 flex-col">
+                <div class="text-white" data-icon="Compass" data-size="24px" data-weight="regular">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+                    <path
+                      d="M128,24A104,104,0,1,0,232,128,104.11,104.11,0,0,0,128,24Zm0,192a88,88,0,1,1,88-88A88.1,88.1,0,0,1,128,216ZM172.42,72.84l-64,32a8.05,8.05,0,0,0-3.58,3.58l-32,64A8,8,0,0,0,80,184a8.1,8.1,0,0,0,3.58-.84l64-32a8.05,8.05,0,0,0,3.58-3.58l32-64a8,8,0,0,0-10.74-10.74ZM138,138,97.89,158.11,118,118l40.15-20.07Z"
+                    ></path>
+                  </svg>
+                </div>
+                <div class="flex flex-col gap-1">
+                  <h2 class="text-white text-base font-bold leading-tight">Compass</h2>
+                  <p class="text-[#ab9db9] text-sm font-normal leading-normal">Indicates direction, guidance, and finding your path.</p>
+                </div>
+              </div>
+              <div class="flex flex-1 gap-3 rounded-lg border border-[#473b54] bg-[#211c27] p-4 flex-col">
+                <div class="text-white" data-icon="Crown" data-size="24px" data-weight="regular">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+                    <path
+                      d="M243.84,76.19a12.08,12.08,0,0,0-13.34-1.7l-50.21,25L138.37,29.86a12.11,12.11,0,0,0-20.74,0L75.71,99.52l-50.19-25A12.11,12.11,0,0,0,8.62,89.12l37,113.36a8,8,0,0,0,11.68,4.4C57.55,206.73,83.12,192,128,192s70.45,14.73,70.68,14.87a8,8,0,0,0,11.71-4.39l37-113.33A12.06,12.06,0,0,0,243.84,76.19ZM198,188.83C186,183.74,162.08,176,128,176s-58,7.74-70,12.83L26.71,93l45.07,22.47a12.17,12.17,0,0,0,15.78-4.59L128,43.66l40.44,67.2a12.18,12.18,0,0,0,15.77,4.59L229.29,93Zm-22.13-32a8,8,0,0,1-7.87,6.61,8.36,8.36,0,0,1-1.4-.12,228.2,228.2,0,0,0-77.22,0,8,8,0,0,1-2.78-15.76,244.42,244.42,0,0,1,82.78,0A8,8,0,0,1,175.88,156.8Z"
+                    ></path>
+                  </svg>
+                </div>
+                <div class="flex flex-col gap-1">
+                  <h2 class="text-white text-base font-bold leading-tight">Crown</h2>
+                  <p class="text-[#ab9db9] text-sm font-normal leading-normal">Represents achievement, recognition, and leadership.</p>
+                </div>
+              </div>
+              <div class="flex flex-1 gap-3 rounded-lg border border-[#473b54] bg-[#211c27] p-4 flex-col">
+                <div class="text-white" data-icon="Coffee" data-size="24px" data-weight="regular">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+                    <path
+                      d="M80,56V24a8,8,0,0,1,16,0V56a8,8,0,0,1-16,0Zm40,8a8,8,0,0,0,8-8V24a8,8,0,0,0-16,0V56A8,8,0,0,0,120,64Zm32,0a8,8,0,0,0,8-8V24a8,8,0,0,0-16,0V56A8,8,0,0,0,152,64Zm96,56v8a40,40,0,0,1-37.51,39.91,96.59,96.59,0,0,1-27,40.09H208a8,8,0,0,1,0,16H32a8,8,0,0,1,0-16H56.54A96.3,96.3,0,0,1,24,136V88a8,8,0,0,1,8-8H208A40,40,0,0,1,248,120ZM200,96H40v40a80.27,80.27,0,0,0,45.12,72h69.76A80.27,80.27,0,0,0,200,136Zm32,24a24,24,0,0,0-16-22.62V136a95.78,95.78,0,0,1-1.2,15A24,24,0,0,0,232,128Z"
+                    ></path>
+                  </svg>
+                </div>
+                <div class="flex flex-col gap-1">
+                  <h2 class="text-white text-base font-bold leading-tight">Cup</h2>
+                  <p class="text-[#ab9db9] text-sm font-normal leading-normal">Signifies emotions, feelings, and relationships.</p>
+                </div>
+              </div>
+            </div>
+            <div class="flex items-center justify-center p-4">
+              <a href="#" class="flex size-10 items-center justify-center">
+                <div class="text-white" data-icon="CaretLeft" data-size="18px" data-weight="regular">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="18px" height="18px" fill="currentColor" viewBox="0 0 256 256">
+                    <path d="M165.66,202.34a8,8,0,0,1-11.32,11.32l-80-80a8,8,0,0,1,0-11.32l80-80a8,8,0,0,1,11.32,11.32L91.31,128Z"></path>
+                  </svg>
+                </div>
+              </a>
+              <a class="text-sm font-bold leading-normal tracking-[0.015em] flex size-10 items-center justify-center text-white rounded-full bg-[#302839]" href="#">1</a>
+              <a class="text-sm font-normal leading-normal flex size-10 items-center justify-center text-white rounded-full" href="#">2</a>
+              <a class="text-sm font-normal leading-normal flex size-10 items-center justify-center text-white rounded-full" href="#">3</a>
+              <a class="text-sm font-normal leading-normal flex size-10 items-center justify-center text-white rounded-full" href="#">4</a>
+              <a href="#" class="flex size-10 items-center justify-center">
+                <div class="text-white" data-icon="CaretRight" data-size="18px" data-weight="regular">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="18px" height="18px" fill="currentColor" viewBox="0 0 256 256">
+                    <path d="M181.66,133.66l-80,80a8,8,0,0,1-11.32-11.32L164.69,128,90.34,53.66a8,8,0,0,1,11.32-11.32l80,80A8,8,0,0,1,181.66,133.66Z"></path>
+                  </svg>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
